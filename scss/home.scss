@@ -1,0 +1,21 @@
+.home {
+  &-header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+
+    &--title {
+      margin-right: 10%;
+      h1 {
+        @extend %h1;
+      }
+      p {
+        @extend %pHeader;
+      }
+    }
+    &--flower {
+      width: 30vw;
+    }
+  }
+}

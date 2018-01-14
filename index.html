@@ -2,23 +2,93 @@
 <html lang="pl">
 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Content-Language" content="pl" />
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<title>Tytuł strony</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="pl" />
+    <meta name="description" content="Alice Ward - skrypty" />
+    <meta name="keywords" content="kody" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <title>Alice Ward</title>
 </head>
 
 <body>
 
-<header></header>
+    <header>
 
-<section>
-<p>To jest nasza nowa strona internetowa HTML5 CSS3.</p>
-</section>
 
-<footer></footer>
+        <link rel="stylesheet" href="./css/reset.css">
+        <!-- JQUERY -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+        <!-- BOOSTRAP -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+            crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+        <!-- VIVUS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.3/vivus.min.js" integrity="sha256-GJSSgiNsWEeYYiI5VIc/IWskeVOqofr9XycM3TBMBeQ="
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="https://use.typekit.net/vkp5ocj.css">
 
+
+    </header>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="./images/favicon.ico" alt="logo">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">Link
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Link</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">Link</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <section id="home" class="home">
+        <div class="container">
+            <div class="home-header">
+                <div class="home-header--title">
+                    <h1>Lilka</h1>
+                    <p>Gotowe kody, pomoc</p>
+                </div>
+                <div id="flower" class="home-header--flower"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer></footer>
+    <script src="./js/home.js"></script>
+    <script src="./js/pageAnimation.js"></script>
 </body>
+
 
 </html>

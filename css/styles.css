@@ -1,0 +1,35 @@
+/* ------ kolory ---- */
+/* --- fonty --*/
+.home-header--title h1 {
+  font-size: 70px;
+  font-family: "ff-nuvo-web-pro"; }
+
+.home-header--title p {
+  font-family: "acuta";
+  font-size: 40px; }
+
+.home-header {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center; }
+  .home-header--title {
+    margin-right: 10%; }
+  .home-header--flower {
+    width: 30vw; }
+
+.navbar {
+  background: transparent; }
+  .navbar-brand img {
+    height: 100%; }
+
+body {
+  background-color: #f2ede4;
+  color: #bf988f; }
+
+a {
+  color: inherit; }
+
+a:hover {
+  background-color: transparent !important;
+  color: #bf988f; }
