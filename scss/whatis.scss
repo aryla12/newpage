@@ -1,0 +1,21 @@
+.whatis {
+  &-header {
+    margin: 10% 0;
+    h3 {
+      @extend %h1;
+      font-size: 40px;
+    }
+  }
+  &-items {
+    p {
+      @extend %p;
+      font-size: 20px;
+    }
+
+    h3 {
+      @extend %h1;
+      font-size: 30px;
+      margin: 20px 0;
+    }
+  }
+}

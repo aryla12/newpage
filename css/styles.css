@@ -1,6 +1,6 @@
 /* ------ kolory ---- */
 /* --- fonty --*/
-.home-header--title h1 {
+.home-header--title h1, .whatis-header h3, .whatis-items h3 {
   font-size: 70px;
   font-family: "ff-nuvo-web-pro"; }
 
@@ -8,20 +8,40 @@
   font-family: "acuta";
   font-size: 40px; }
 
-.home-header {
-  display: flex;
-  width: 100%;
-  justify-content: flex-end;
-  align-items: center; }
-  .home-header--title {
-    margin-right: 10%; }
-  .home-header--flower {
-    width: 30vw; }
+.whatis-items p {
+  font-family: "acuta"; }
+
+.home {
+  height: 80vh; }
+  .home .container {
+    height: 100%; }
+  .home-header {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center; }
+    .home-header--title {
+      margin-left: 10%; }
+    .home-header--flower {
+      width: 20vw; }
 
 .navbar {
   background: transparent; }
   .navbar-brand img {
     height: 100%; }
+
+.whatis-header {
+  margin: 10% 0; }
+  .whatis-header h3 {
+    font-size: 40px; }
+
+.whatis-items p {
+  font-size: 20px; }
+
+.whatis-items h3 {
+  font-size: 30px;
+  margin: 20px 0; }
 
 body {
   background-color: #f2ede4;
